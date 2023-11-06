@@ -15,7 +15,7 @@ def is_iitbhu_email(email):
     
 
 def home(request):
-    return render(request,'Authentication/home.html')
+    return render(request,'home.html')
 
 def registration(request):
     if request.user.is_authenticated:
