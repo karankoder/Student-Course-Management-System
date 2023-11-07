@@ -32,7 +32,7 @@ class User(AbstractUser):
     email_token=models.CharField(max_length=200,null=True,blank=True)
     forget_password=models.CharField(max_length=200,null=True,blank=True)
     email= models.EmailField(unique=True)
-    user_profile_image = models.ImageField(upload_to="profile")
+    user_profile_image = models.ImageField(upload_to="profile_pics",default='profile_pics/default_student.png')
     department=models.CharField(max_length=20,choices=dept_choices,null=True)
     semester=models.CharField(max_length=10,choices=sem_choices,null=True)
     objects=UserManager()

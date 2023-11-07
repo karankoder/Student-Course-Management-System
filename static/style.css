@@ -1,30 +1,31 @@
 *{
     margin:0;
     padding:0;
-   
-    font-family: "Inter", sans-serif;
-	font-style: normal;
-	
+    font-family: Arial;
 }
 .header{
     min-height:100vh;
     width:100%;
-    
-    /* background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)); */
 }
 .jay{
-    height: 100%;
-    width: 100%;
     justify-content:space-between;
     display:flex;
+}
+.karan{
+    display: flex;
+    font-size: 50px;
+    gap: 20px;
+}
+.jayy{
+    color: red;
 } 
 nav{
     justify-content:center;
     display:flex;
-    padding:2% 9%;
+    padding:1.50% 9%;
     align-items: center;
-    background-color:rgb(4, 35, 35);
-  
+    background-color:black; 
+    /* color:white; */
 }
 
 
@@ -41,37 +42,38 @@ nav{
 .nav-links ul li a{
     color:white;
     text-decoration:none;
-    font-size:18px;
+    font-size:20px;
 }
 .nav-links ul li a:hover{
-    transition:0.8s;
-    color:#6674CC;
+    transition:1.2s;
+    color:red;
     text-decoration:none;
+   
 } 
-.karan{
+/* .karan{
     font-size: 50px;
-}
+} */
 .image-2-icon {
     position: absolute;
     display: block;
-    top: 105px;
+    top: 110px;
     left: 0;
     width: 100%;
-    height:750px;
+    height:650px;
     object-fit: cover;
-    /* opacity: 0.70; */
+    opacity: 0.47;
   }
   .course-management-system {
     position: absolute;
     top: 275px;
-    left: 410px;
-    
+    /* left: 250px; */
     font-size: 77px;
     letter-spacing: 0.11em;
-    display: inline-block;
+    display:flex;
     color: #5465d3;
     text-align: center;
-    width: 718px;
+    justify-content: center;
+    width: 100px;
     height: 291px;
   }
   .about {
@@ -84,7 +86,7 @@ nav{
   }
   .jay1{
     background-color:#29347a;
-    margin-top: 148px;  
+    margin-top: 55px;  
     height:80px;
     width:100%;
   }
@@ -96,7 +98,7 @@ nav{
     font-weight: 300;
     line-height: 40px;
     display: inline-block;
-    width: 100%;
+    width:100%;
     height:250px;
     background-color: rgb(148, 205, 241);
   }
@@ -153,4 +155,3 @@ ul a{
 .jay5{
     margin-top:20px;
 }
-
